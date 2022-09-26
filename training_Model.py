@@ -17,7 +17,7 @@ st.write("This app uses 6 inputs to predict the species of penguin using"
 
 # Ensure that authorized is using this app
 password = st.text_input("Enter your Password:")
-if password != "Balav is Great!":
+if password != "Balav":
     st.write("Incorrect Password!")
     st.stop()
 
