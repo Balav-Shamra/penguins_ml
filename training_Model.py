@@ -17,10 +17,11 @@ st.write("This app uses 6 inputs to predict the species of penguin using"
 
 # Ensure that authorized is using this app
 password = st.text_input("Enter your Password:")
-if password == st.secrets['password']:
+creator = st.text_input("Created by:")
+if password == st.secrets['password'] and creator == st.secrets['creator']:
     st.write("Welcome to the Streamlit App")
 else:
-    st.write("Incorrect Password")
+    st.write("Incorrect Password or Creator!")
     st.stop()
 
     
