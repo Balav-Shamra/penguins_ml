@@ -21,7 +21,7 @@ creator = st.text_input("Created by:")
 if password == st.secrets['password'] and creator == st.secrets['creator']:
     st.write("Welcome to the Streamlit App")
 else:
-    st.write("Incorrect Credential!")
+    st.write("Incorrect Credentials!")
     st.stop()
 
     
