@@ -9,7 +9,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
 # beautify the streamlit app
-st.title("**Balav Sha**")
 st.title("Penguins Classifier: Supervised ML")
 st.write("This app uses 6 inputs to predict the species of penguin using"
          "a model built on Palmer's Penguin's Dataset. Use the from below"
